@@ -1,0 +1,23 @@
+{
+  "name": "pensar-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.3.1",
+    "axios": "^1.11.0",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "csurf": "^1.11.0",
+    "depd": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "typescript": "^5.9.2"
+  }
+}
