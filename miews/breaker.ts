@@ -33,7 +33,8 @@ export async function fetchURL(url: string) {
 
 // ❌ Insecure deserialization
 export function deserialize(data: string) {
-    return eval("(" + data + ")");
+    // Use JSON.parse instead of eval for safe deserialization
+    return JSON.parse(data);
 }
 
 // ❌ Unsafe file write
