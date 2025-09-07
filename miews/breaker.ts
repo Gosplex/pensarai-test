@@ -5,7 +5,8 @@ import axios from "axios";
 
 // ❌ Arbitrary code execution
 export function runUserCode(code: string) {
-    return eval(code);
+    // Instead of eval, reject all code execution for security
+    throw new Error("runUserCode is disabled due to security concerns.");
 }
 
 // ❌ Command injection
